@@ -72,6 +72,7 @@ jobs:
           app-name: 'emailrequestgithub'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9E83099C56E843BDB27C77105A96720A }}
+
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISH_PROFILE }}
           sku: 'flexconsumption'
         

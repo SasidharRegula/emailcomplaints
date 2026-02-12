@@ -3,9 +3,13 @@
 # azure-monitor-opentelemetry
 
 azure-functions
-azure-functions
 openai
-azure-identity 
-azure-ai-projects==1.0.0b11 
-azure-ai-documentintelligence>=1.0.0 
+azure-storage-blob
+azure-ai-documentintelligence
 azure-cosmos
+# azure-functions
+# openai
+# azure-identity 
+# azure-ai-projects==1.0.0b11 
+# azure-ai-documentintelligence>=1.0.0 
+# azure-cosmos

@@ -17,7 +17,7 @@ def emailcomplaintsgithub(req: func.HttpRequest) -> func.HttpResponse:
         from datetime import datetime
         from concurrent.futures import ThreadPoolExecutor 
     except Exception as e: 
-        logging.error("Import statements failing",e)
+        logging.error("Import statements failing: %s",e)
         return func.HttpResponse(str(e),status_code=100)
     BLOB_CONN_STR=os.getenv("BLOB_CONN_STR") 
     BLOB_CONTAINER_NAME=os.getenv("BLOB_CONTAINER_NAME")
